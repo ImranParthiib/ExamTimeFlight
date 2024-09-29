@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+}
+
+header,
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+header {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
