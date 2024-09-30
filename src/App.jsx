@@ -59,7 +59,7 @@ const ExamTimer = () => {
 
   if (isSetup) {
     return (
-      <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center p-4">
+      <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center p-4 overflow-hidden">
         <div className="bg-slate-800 p-6 rounded-lg shadow-lg w-full max-w-md">
           <h2 className="text-2xl font-bold text-center text-white mb-6">
             Set Exam Time
@@ -156,7 +156,7 @@ const ExamTimer = () => {
         >
           <Plane
             className="text-yellow-400 absolute"
-            size={80}
+            size={60}
             style={{
               top: "2%",
               left: "45%",
