@@ -159,8 +159,8 @@ const ExamTimer = () => {
             size={60}
             style={{
               top: "2%",
-              left: "45%",
-              transform: "translate(-50%, -50%) rotate(42deg) translateY(-0px)",
+              left: "48%",
+              transform: "translate(-50%, -50%) rotate(45deg) translateY(-0px)",
             }}
           />
         </div>
