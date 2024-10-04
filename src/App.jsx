@@ -4,8 +4,8 @@ import { Play, Pause, RotateCcw, Plane } from "lucide-react";
 const ExamTimer = () => {
   const [time, setTime] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
-  const [inputHours, setInputHours] = useState(0);
-  const [inputMinutes, setInputMinutes] = useState(0);
+  const [inputHours, setInputHours] = useState(null);
+  const [inputMinutes, setInputMinutes] = useState(null);
   const [isSetup, setIsSetup] = useState(true);
   const [totalTime, setTotalTime] = useState(0);
 
